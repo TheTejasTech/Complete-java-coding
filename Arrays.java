@@ -3,7 +3,7 @@ import java.util.*;
 public class Main{
   public static void main(String[] args){
     System.out.println("Hello World!");
-    //d
+
     int[] arr = {1,2,6,9,5,7,3,4};
     printArray(arr);
     arrayToMap(arr);
