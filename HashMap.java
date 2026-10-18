@@ -1,4 +1,8 @@
 import java.util.*;
+
+// hashmaps are always in key value pair and first one is always key
+// key has to be unique and only one with specified data type
+//value gets printed alongside each key
 public class Main
 {
 	public static void main(String[] args) {
