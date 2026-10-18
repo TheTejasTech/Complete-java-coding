@@ -15,5 +15,16 @@ public class Main
 			System.out.println("India is not present in the map");
 		}
 
-    }
+		mapToArray(mp);
+	}
+
+	public static void mapToArray(HashMap<Integer, String> mp) {
+		int[] arr = new int[mp.size()];
+		int i = 0;
+		for( int key : mp.keySet()) {
+			arr[i] = key;
+			i++;
+		}
+		System.out.println("key as array from map is: "+ Arrays.toString(arr));
+	}
 }
